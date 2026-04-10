@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #f5f5f5;
+        }
+
+        header {
+            background: #2e5d3a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .tag {
+            background: #2e5d3a;
+            color: white;
+            padding: 5px 10px;
+            font-size: 12px;
+            border-radius: 20px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Portfolio</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="business.html">Maque Lounge</a>
+    </nav>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <span class="tag">Branding</span>
+        <h3>Nomad’s Rest Cafe</h3>
+        <p>Logo, menu, and social media design work.</p>
+    </div>
+
+    <div class="card">
+        <span class="tag">Business</span>
+        <h3>Maque Lounge</h3>
+        <p>Full hospitality brand concept and identity.</p>
+    </div>
+
+    <div class="card">
+        <span class="tag">Design</span>
+        <h3>CV Projects</h3>
+        <p>Professional CVs that help clients get jobs.</p>
+    </div>
+
+</div>
+
+</body>
+</html>
